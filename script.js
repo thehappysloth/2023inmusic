@@ -22,7 +22,7 @@ function addAlbum(album) {
 
     clone.querySelector('.artist').textContent = album.artist;
     clone.querySelector('.title').textContent = album.title;
-    clone.querySelector('.genres').innerHTML = album.genres.replace("/","<br/>");
+    clone.querySelector('.genres').innerHTML = album.genres.replaceAll("/","<br/>");
 
     var streamingLinks = clone.querySelectorAll('.streaming a');
     streamingLinks[0].href = album.spotify;
