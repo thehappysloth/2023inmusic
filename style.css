@@ -68,19 +68,21 @@ h1 {
 .overlay .artist {
   font-weight: 800;
   color: #ff4433;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .overlay div.genres {
-  font-size: 10px;
+  font-size: 12px;
   color: #ffd166;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .overlay div,
+.artist,
 .title {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .album.active {
